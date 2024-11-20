@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+        /* 92DCE5 */
+        h1,h2,h3{
+            font-family: "Pacifico", cursive;
+        }
+
+        *{
+            margin:0;
+            border:0;
+        }
+
+        .header{
+            /* border:10px solid lightgreen; */
+            /* height:40vh; */
+        }
+
+        .navbar{
+            background-color: aqua;
+            /* border:5px solid pink; */
+            padding:20px 0;
+        }
+
+        .menu{
+            /* border:2px solid lightskyblue; */
+            overflow:hidden;
+        }
+
+        .menu li{
+            margin:0 20px;
+            /* border:2px solid yellow; */
+            float:left;
+            list-style:none;
+        }
+
+        .menu a{
+            text-decoration:none;
+            text-transform:uppercase;
+            color:black;
+        }
+
+        .bgimage{
+            border-bottom:4px groove black;
+            height:50vh;
+            position:relative;
+        }
+
+        .main-image{
+            width:100%;
+            height:100%;
+            object-fit:cover;
+            object-position:center;
+        }
+
+        .bt-content{
+            background-color: rgba(255,255,255,0.8);
+            border-radius:5px;
+            padding:5px 30px;
+            width:50%;
+            position:absolute;
+            bottom:60px;
+            left:15px;
+        }
+
+        /* main */
+
+        .main{
+            background-color:aqua;
+            /* border:20px solid lightpink; */
+            /* height:400px; */
+            padding:20px 0;
+        }
+
+        .section-wrapper{
+            background-color:royalblue;
+            /* border:5px solid lightblue */
+            /* height:100px; */
+            width:85%;
+            margin:0 auto;
+        }
+
+        .para1{
+            overflow:hidden;
+            padding:30px;
+            border-bottom:3px groove black;
+        }
+
+        .para1-content{
+            padding:10px 0;
+            height:250px;
+            /* border:2px solid red; */
+            float:right;
+            width:45%;
+        }
+
+        .para1-content p{
+            margin:30px 0;
+        }
+
+        .para1-image{
+            padding:10px 0;
+            text-align:center;
+            /* border:5px solid orange; */
+            float:left;
+            width:50%;
+            height:250px;
+        }
+
+
+        .btn{
+            text-decoration:none;
+            margin-top:20px;
+            color:purple;
+            background-color:lightcyan;
+            border-radius:30px;
+            padding:10px;
+        }
+
+        /* footer */
+
+        .td{
+            background-color:rgb(196, 240, 255);
+            padding:50px 0;
+            text-align:center;
+            color:lightcoral;
+        }
+
+        @media screen and (max-width: 700px){
+            .para1{
+            /* overflow:hidden; */
+            padding:30px;
+            border-bottom:3px groove black;
+                text-align:center;
+        }
+
+            .para1-content{
+            padding:10px 0;
+            height:250px;
+            /* border:2px solid red; */
+            float:none;
+            width:95%;
+        }
+
+        .para1-content p{
+            margin:30px 0;
+        }
+
+        .para1-image{
+            padding:10px 0;
+            text-align:center;
+            /* border:5px solid orange; */
+            float:none;
+            width:80%;
+            height:250px;
+            margin:0 auto;
+        }
+
+
+        }
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    
+<!-- header -->
+    <header class="header">
+        <nav class="navbar">
+            <ul class="menu">
+                <li>
+                   <a href="">home</a> 
+                </li>
+                <li>
+                   <a href=""> endangered species</a>
+                </li>
+                <li>
+                    <a href="">contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="bgimage">
+            <img src="image/bgimage.png" alt="endangered-species" class="main-image">
+            <div class="bt-content">
+                <h1>Endandered Species</h1>
+                <h2>Save These Poor Animal Souls</h2>
+
+
+            </div>
+
+
+        </div>
+
+
+    </header>
+
+
+
+
+
+    <!-- main -->
+    <main class="main">
+        <div class="section-wrapper">
+            <section class="para1">
+                <div class="para1-image">
+                    <img src="image/tasmanian devils collage.jpeg" class="tasi-devils">
+                </div>
+                <div class="para1-content">
+                    <h2>Tasmanian Devils</h2>
+                    <p>The survival of Tasmanian Devils is seriously threatened by Devil Facial Tumour Disease which develops rapidly and is fatal. Once the highly infectious cancerous tumours appear around the mouth, face and neck, the Devils generally die within three to six months.</p>
+                    <a href="https://www.britannica.com/animal/Tasmanian-devil" class="btn" target="_blank">Find out more</a>
+                </div>
+            </section>
+
+            <section class="para1">
+                <div class="para1-image">
+                    <img src="image/tasmanian devils collage.jpeg" class="tasi-devils">
+                </div>
+                <div class="para1-content">
+                    <h2>Tasmanian Devils</h2>
+                    <p>The survival of Tasmanian Devils is seriously threatened by Devil Facial Tumour Disease which develops rapidly and is fatal. Once the highly infectious cancerous tumours appear around the mouth, face and neck, the Devils generally die within three to six months.</p>
+                    <a href="https://www.bushheritage.org.au/species/tassie-devils/Tasmanian-devil" class="btn" target="_blank">Find out more</a>
+                </div>
+            </section>
+
+            <section class="para1">
+                <div class="para1-image">
+                    <img src="image/tasmanian devils collage.jpeg" class="tasi-devils">
+                </div>
+                <div class="para1-content">
+                    <h2>Tasmanian Devils</h2>
+                    <p>The survival of Tasmanian Devils is seriously threatened by Devil Facial Tumour Disease which develops rapidly and is fatal. Once the highly infectious cancerous tumours appear around the mouth, face and neck, the Devils generally die within three to six months.</p>
+                    <a href="https://www.britannica.com/animal/Tasmanian-devil" class="btn">Find out more</a>
+                </div>
+            </section>
+        </div>
+    </main>
+<!-- footer -->
+    <footer class="footer">
+        <p class="td">&copy: 2024 tasmanian devils</p>
+    </footer>
+</body>
+</html>
